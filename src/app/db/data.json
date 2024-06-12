@@ -7,14 +7,14 @@
             {
                 "name": "EJ Valen",
                 "description": "medieval cozy fantasy m/m romance",
-                "avatarSrc": "../../../assets/images/pennames/ej-valen.jpeg",
+                "avatarSrc": "/ejvalen/assets/images/pennames/ej-valen.jpeg",
                 "authorUrl": "https://www.amazon.com/stores/author/B08F819FR6",
                 "avatarAltText": ""
             },
             {
                 "name": "EJ Taylor",
                 "description": "medieval low-stakes m/m eromance",
-                "avatarSrc": "../../../assets/images/pennames/ej-taylor.png",
+                "avatarSrc": "/ejvalen/assets/images/pennames/ej-taylor.png",
                 "authorUrl": "https://www.amazon.com/stores/author/B08F819FR6",
                 "avatarAltText": ""
             }
