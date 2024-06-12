@@ -1,0 +1,85 @@
+{
+    "homepage": {
+        "title": "E.J. Valen",
+        "subtitle": "writer of cozy queer romance",
+        "statement": "With the stress of reality pounding down, all I want is to join characters on their adventures from blooming summer fields to breathtaking untouched tundras. Bring back the whimsy in the mundane and romanticize every aspect of life. After all, just because we are used to it doesn't mean it's not magical still.",
+        "penNames": [
+            {
+                "name": "EJ Valen",
+                "description": "medieval cozy fantasy m/m romance",
+                "avatarSrc": "/assets/images/pennames/ej-valen.jpeg",
+                "authorUrl": "https://www.amazon.com/stores/author/B08F819FR6",
+                "avatarAltText": ""
+            },
+            {
+                "name": "EJ Taylor",
+                "description": "medieval low-stakes m/m eromance",
+                "avatarSrc": "/assets/images/pennames/ej-taylor.png",
+                "authorUrl": "https://www.amazon.com/stores/author/B08F819FR6",
+                "avatarAltText": ""
+            }
+        ]
+    },
+    "works": [
+        {
+            "title": "King's Courtship: A Gay Medieval Romance (King's Beloved Book 2)",
+            "author": "EJ Taylor",
+            "coverUrl": "https://m.media-amazon.com/images/I/51IaNHS6MKL._SL1500_.jpg",
+            "blurb": "When the king sees someone trying to steal what is his, he does what it takes to fully stake his claim. King Sylan and his naive bedwarmer Amel have settled into a peaceful friendship and a steady routine. When they’re not eating, studying, or working, they bring each other to pleasurable heights....",
+            "url": "https://www.amazon.com/dp/B08VWT9CVL",
+            "publicationDate": "2021-02-04T00:00:00.000Z"
+        },
+        {
+            "title": "King's Bedwarmer: A Gay Medieval Romance",
+            "author": "EJ Taylor",
+            "coverUrl": "https://m.media-amazon.com/images/I/51TVjTRk5JL._SL1500_.jpg",
+            "blurb": "Uneducated villager meets worldly knight. One longs for friendship. The other desires something far less innocent. Amel has been hired as the king’s bedwarmer. Everyone assumes a simple villager like him knows what the job entails, and he does! When the king comes back from war, Amel is to cuddle....",
+            "url": "https://www.amazon.com/dp/B08GYDJ181",
+            "publicationDate": "2020-08-28T00:00:00.000Z"
+        },
+        {
+            "title": "Dig Deep: First-Time Gay",
+            "author": "EJ Taylor",
+            "coverUrl": "https://m.media-amazon.com/images/I/41YmuWD9KgL._SL1500_.jpg",
+            "blurb": "“If one of you stays here and sleeps with me, I’ll let the others pass without trouble.” The Guardian of Akor’s tomb is a god capable of destroying human minds with a bat of an eyelash. He’s also a very horny god who desperately wants someone to hump. For the success of their quest, six hu...",
+            "url": "https://www.amazon.com/dp/B08HHC9SV7",
+            "publicationDate": "2020-09-03T00:00:00.000Z"
+        },
+        {
+            "title": "Brothel’s Glory Box: An MMM Medieval Erotic Short (King's Beloved)",
+            "author": "EJ Taylor",
+            "coverUrl": "https://m.media-amazon.com/images/I/51WrMVgW3wL._SL1500_.jpg",
+            "blurb": "Glory boxes provide townspeople a cheap and quick way to relieve their stress. You just toss a coin inside the box, stick your pride through the hole, and wait to be pleasured. Seaf needs coin, and he needs it fast. So, he claims a glory box, climbs inside, and hopes for success. Given that he on...",
+            "url": "https://www.amazon.com/dp/B08WJMBMNK",
+            "publicationDate": "2021-02-11T00:00:00.000Z"
+        }
+    ],
+    "reading": [
+        {
+            "coverImg": "https://m.media-amazon.com/images/I/519CzoTby1L._SY522_.jpg",
+            "title": "Mort (A Novel of Discworld) by Terry Pratchett"
+        },
+        {
+            "coverImg": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1409189707i/13133725.jpg",
+            "title": "Alternative Alamat: An Anthology"
+        }
+    ],
+    "favoriteWorks": [
+        {
+            "coverImg": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1615552073i/12067.jpg",
+            "title": "(Book and TV Show) Good Omens by Terry Pratchett and Neil Gaiman"
+        },
+        {
+            "coverImg": "https://m.media-amazon.com/images/I/91XHDtSt7qL._SL1500_.jpg",
+            "title": "(Book) The Complete Sherlock Holmes by Sir Arthur Conan Doyle"
+        },
+        {
+            "coverImg": "https://m.media-amazon.com/images/I/81BTHaqPLFL._SL1500_.jpg",
+            "title": "(TV Show) The Good Place"
+        }
+    ],
+    "aboutPage": {
+        "greeting": "Hi, EJ here!",
+        "aboutStatement": "A writer, a dreamer, and a kid who never grew up. <br>I've been writing since I was barely old enough to understand that bedtime stories aren't real. I began my publishing career in fanfiction. Would you believe me if I told you the first writing that anyone saw of me was a \"Detective Conan\" fanfic with an inserted Mary Sue character? Alas, my dark history remains out there.<br>When I joined the workforce with a career path I like but not love, capitalism kicked my behind. Now I'm writing both for passion and profit.<br>Programming is my wife but writing is my mistress. Today, we are living in a harmonious polycule."
+    }
+}

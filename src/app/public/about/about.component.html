@@ -1,0 +1,44 @@
+<div class="about-page page-padding border-bottom">
+    <section class="about-hero mb-2 py-4 border-bottom border-left border-right">
+        <h1 class="text-primary fw-bolder">{{greeting}}</h1>
+        <p class="mt-2" [innerHTML]="aboutStatement"></p>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <section class="currently-reading mb-2 mt-4 text-center">
+                    <div class="text-center">
+                        <img src="/assets/images/utilities/sparkle-12x.png" loading="eager" width="100" alt="" class="sparkle-image-small">
+                        <h2 class="text-primary d-inline-block mx-2">Currently Reading</h2>
+                        <img src="/assets/images/utilities/sparkle-12x.png" loading="eager" width="100" alt="" class="sparkle-image-small">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div *ngFor="let r of reading" class="col-12 col-md-6 my-3">
+                                    <img [src]="r.coverImg" height="350">
+                                    <h3 class="fw-bold">{{r.title}}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6 col-12">
+                <section class="favorite-works text-center mt-2 mb-4">
+                    <div class="text-center">
+                        <img src="/assets/images/utilities/sparkle-12x.png" loading="eager" width="100" alt="" class="sparkle-image-small">
+                        <h2 class="text-primary d-inline-block mx-2">Favorite Works</h2>
+                        <img src="/assets/images/utilities/sparkle-12x.png" loading="eager" width="100" alt="" class="sparkle-image-small">
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div *ngFor="let f of favorites" class="col-12 col-md-6 my-3">
+                                <img [src]="f.coverImg" height="350">
+                                <h3 class="fw-bold">{{f.title}}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>

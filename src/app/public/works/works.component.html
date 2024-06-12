@@ -1,0 +1,60 @@
+<div [ngClass]="{'page-padding pt-3 border-bottom works-page': !isCarousel}">
+    <h1 class="text-primary fw-bold">Works</h1>
+    <div *ngIf="isCarousel">
+        <div id="carouselWorks" class="carousel slide">
+            <div class="carousel-inner">
+              <div *ngFor="let work of works; let i = index" class="carousel-item px-5"
+                [ngClass]="{'active': i === 0}">
+                <div class="text-center">
+                    <div class="mb-2">
+                        <img class="cover" [src]="work.coverUrl" width="240">
+                    </div>
+                    <h4 class="fw-bolder">{{ work.title }}</h4>
+                    <small>Published {{ work.publicationDate | date: 'longDate' }}</small>
+                    <p class="mt-2 text-start" [innerHTML]="work.blurb"></p>
+                    <button type="button" class="primary mt-2 mb-3" (click)="redirectToUrlNewTab(work.url)">Read More</button>
+                </div>
+                <!-- <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="cover" [src]="work.coverUrl">
+                        </div>
+                        <div class="col-8">
+                            <h4 class="fw-bolder">{{ work.title }}</h4>
+                            <small>Published {{ work.publicationDate | date: 'longDate' }}</small>
+                            <p class="mt-2" [innerHTML]="work.blurb"></p>
+                            <button type="button" class="primary" (click)="redirectToUrlNewTab(work.linkToWork)">Read More</button>
+                        </div>
+                    </div>
+                </div> -->
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselWorks" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselWorks" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div *ngIf="!isCarousel" class="border-left border-right">
+        <div *ngFor="let work of works; let i = index" class="px-md-5">
+            <div class="container-fluid">
+                <div class="row my-5">
+                    <div class="col-3" [ngClass]="{'order-2': i % 2 !== 0}">
+                        <img class="cover" [src]="work.coverUrl">
+                    </div>
+                    <div class="col-9" [ngClass]="{'order-1': i % 2 !== 0}">
+                        <h4 class="fw-bold">{{ work.title }}</h4>
+                        <small>Published {{ work.publicationDate | date: 'longDate' }}</small>
+                        <p class="mt-2 blurb" [innerHTML]="work.blurb"></p>
+                        <button type="button" class="primary" (click)="redirectToUrlNewTab(work.url)">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

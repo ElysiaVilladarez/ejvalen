@@ -1,0 +1,33 @@
+.about-page {
+    background-color: #f8faff;
+    background-image: url("/assets/images/utilities/dotted-2-min.png");
+    background-position: 0px 0px;
+
+    h1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 4.0rem;
+        line-height: 4.5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        line-height: 3.0rem !important;
+    }
+
+    p {
+        font-size: 0.7rem;
+        font-size: 1.0rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+        h1 {
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 3.0rem;
+            line-height: 3.5rem;
+        }
+    
+        h2 {
+            font-size: 1.8rem;
+            line-height: 2.2rem !important;
+        }
+    }
+}

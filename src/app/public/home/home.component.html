@@ -1,0 +1,39 @@
+<div class="homepage page-padding pt-3 border-bottom">
+    <div class="container-fluid border-left border-right">
+        <div class="row d-lg-none d-block">
+            <div class="col-12 text-center">
+                <img class="hero-img-mobile" src="/assets/images/home/hero-img.jpeg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-8 hero">
+                <h1 class="hero-intro fw-bolder text-primary">{{data.title}}</h1>
+                <div class="hero-subtitle text-secondary">
+                    <img src="/assets/images/utilities/sparkle-12x.png" loading="eager" width="107" alt="" class="sparkle-image-small">
+                    <span class="mx-2" [innerHTML]="data.subtitle"></span>
+                    <img src="/assets/images/utilities/sparkle-12x.png" loading="eager" width="107" alt="" class="sparkle-image-small">
+                </div>
+        
+                <div class="hero-statement text-secondary mt-4">
+                    <span class="mx-2" [innerHTML]="data.statement"></span>
+                </div>
+            </div>
+        </div>
+        <div class="penname row mt-5">
+            <div class="col-12 mb-2 text-md-start text-center">
+                <p class="penname-p text-primary fw-bold">Pen Names</p>
+                <small class="text-muted">pen names help readers categorize the genres that the author writes in</small>
+            </div>
+            <div class="col-12 text-md-start text-center">
+                <div *ngFor="let penName of data.penNames" class="my-2">
+                    <img [src]="penName.avatarSrc" [alt]="penName.avatarAltText" class="avatar me-2 mb-3" (click)="redirectToUrlNewTab(penName.authorUrl)">
+                    <div class="d-inline-block penname-description">
+                        <h5><a [href]="penName.authorUrl" target="_blank">{{ penName.name }}</a></h5>
+                        <span [innerHTML]="penName.description"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <img class="hero-img d-none d-lg-block" src="/assets/images/home/hero-img.jpeg">
+    </div>
+</div>
